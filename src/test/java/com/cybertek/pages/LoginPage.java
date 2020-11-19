@@ -11,6 +11,7 @@ We store all the web elements and methods related to LoginPage in this .java cla
 public class LoginPage {
 
     public LoginPage(){
+
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
